@@ -1,0 +1,99 @@
+body {
+    background-color: #121212;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background: #1e1e1e;
+    padding: 30px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 0 10px #444;
+  } 
+
+  .tabs {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .tabs button {
+    flex: 1;
+    padding: 10px;
+    cursor: pointer;
+    background: #2d2d2d;
+    border: none;
+    color: white;
+  }
+  
+  .tabs button.active {
+    background: #3b82f6;
+  }
+  
+  .tab {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .tab.hidden {
+    display: none;
+  }
+  
+  input[type="password"],
+  input[type="text"],
+  input[type="range"] {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  #strengthContainer {
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  #strengthBar {
+    display: flex;
+    gap: 4px;
+    margin-top: 4px;
+  }
+  
+  .segment {
+    flex: 1;
+    height: 8px;
+    background-color: #ddd;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  #strengthText {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }  
+
+  #strengthLabel {
+    position: absolute;
+    top: -22px;
+    left: 0;
+    font-size: 14px;
+  }
+  
+  button {
+    padding: 10px;
+    background: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
