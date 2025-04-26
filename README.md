@@ -17,8 +17,8 @@ Task-03/
 ├── app.py
 ├── README.md 
 ├── output
-    ├──![screenshot](output/password-checker.png) 
-    ├──![screenshot](output/password-Generator.png)
+    ├──password-checker.png
+    ├──password-Generator.png
 
 ---
 
